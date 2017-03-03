@@ -13,5 +13,11 @@ namespace asp_test_1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string value = TextBox1.Text;
+            Label1.Text = value;
+        }
     }
 }
